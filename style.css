@@ -48,7 +48,8 @@ a{
 	color: #73AECE;
 }
 .banner{
-	background-image: url(https://via.placeholder.com/1000x500);
+	/*background-image: url(https://via.placeholder.com/1000x500);*/
+	background-image: url(img/home/first-photo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
