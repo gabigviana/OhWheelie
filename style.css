@@ -1,0 +1,114 @@
+@font-face {
+font-family: 'Bahnschrift Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Bahnschrift Regular'), url('fonts/BAHNSCHRIFT.woff') format('woff');
+}
+
+*{
+	font-family: "Bahnschrift Regular";
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+
+}
+body{
+	margin:0px;
+}
+nav{
+	background: #343434;
+}
+ul{
+	margin:0px;
+	padding-bottom: 5px;
+}
+nav > ul li{
+	display: inline-block;
+	padding:5px;
+}
+nav > ul li h1{
+	margin-bottom: 5px;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	align-content: center;
+}
+nav ul, .logo .center{
+	vertical-align: middle;
+}
+header{
+	height: 100vh;
+	background: #343434;
+	overflow: hidden;
+
+}
+a{
+	text-decoration: none;
+	color: #73AECE;
+}
+.banner{
+	background-image: url(https://via.placeholder.com/1000x500);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.banner_text{
+	position: absolute;
+	/*background: #777;*/
+	top: 50%;
+	right: 20%;
+	/*transform: translateX(-50%);*/
+	/*transform: translateY(-50%);*/
+	transform: translate(-50%, -50%);
+}
+.banner_text > a > h2{
+	background-color: #343434;
+	padding: 10px;
+	margin-left: -10px;
+}
+.active{
+	box-shadow: 0px 5px #73AECE;
+}
+main{
+	background: #ccc;
+	min-height: 100vh;
+	padding-bottom: 50px;
+	padding-left: 10%;
+	padding-right: 10%; 
+}
+.cat > ul li{
+	display: inline-block;
+	/*margin-top: 35px;*/
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 3px solid #73AECE;
+}
+.cat > ul li:last-child{
+	border-width: 0px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container img{
+	border: 2px solid #73AECE;
+}
+.container h6{
+	position: relative;
+	margin: 0px;
+	top: 10px;
+	left: 10px;
+	transform: translateY(100%);
+}
+main > div {
+	padding-top: 70px;
+}
+.logo img{
+	width: 15%;
+	filter: invert(100%);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
